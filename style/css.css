@@ -1,0 +1,80 @@
+/*  body */
+
+.body {
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+}
+
+
+/*  main */
+
+.main {
+    position: fixed;
+    top: 2%;
+    bottom: 2%;
+    left: 25%;
+    right: 25%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: whitesmoke;
+    float: left;
+}
+
+
+/*  Top */
+
+.top {
+    height: 10%;
+    position: relative;
+}
+
+.text_center {
+    text-align: center;
+}
+
+/*  FONT */
+
+.h1 {
+    display: block;
+    color: dimgrey;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 600;
+    font-family: "Arial Hebrew";
+}
+
+.h2 {
+    display: block;
+    color: darkgrey;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 400;
+    font-family: "Arial Hebrew";
+}
+
+.ul {
+    background: #3399ff;
+    padding: 20px;
+    list-style-type: square;
+}
+
+.ul li {
+    display: block;
+    background: #cce5ff;
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 400;
+    font-family: "Arial Hebrew";
+    text-align: left;
+}
